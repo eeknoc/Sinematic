@@ -10,8 +10,13 @@ My website has two main features, namely Graphify and Probavis.
 
 - **Graphify:**
 It takes in a mathematical funciton, then returns the corresponding graph. It is fully customizable, from the styling to the components of the graph, it is all up to you. You can also download the graph.
+
+![graphify)](https://github.com/eeknoc/sinematic/assets/131577622/f8595973-db29-478f-bfa6-9249a300fea0)
+
 - **Probavis**:
 It is an interactive animation that visualizes the concept of probabilities. You can choose the number of classes and trials to simulate a scenario, and alter the color of the blocks to your liking. It automatically spits out the percentage at the end.
+
+![probavis](https://github.com/eeknoc/sinematic/assets/131577622/0360f577-56c6-457d-a67f-a8f7aac6122f)
 
 ## How it was made
 
