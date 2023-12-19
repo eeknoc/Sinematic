@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import FeaturePlot from './FeaturePlot'
-import { Alert, Button, Container, FormControl, FormControlLabel, FormGroup, FormLabel, Radio, RadioGroup, Stack, Switch, TextField } from '@mui/material'
-import { compile } from 'mathjs'
-import { Controller, FormProvider, useForm, useFormContext } from 'react-hook-form'
+import { Button, Container, Stack } from '@mui/material'
+import { useForm } from 'react-hook-form'
 import { boolean, number, object, ref, string } from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup';
 import ChartSettings from './ChartSettings'
@@ -36,8 +35,6 @@ export default function FeatureAContent() {
     titleColor: "#222229",
     displayTicks: true
   })
-
-  console.log(chartConfig)
 
   const {control, handleSubmit} = useForm({
     resolver: yupResolver(validationSchema),

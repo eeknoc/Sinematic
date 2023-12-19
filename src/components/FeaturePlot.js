@@ -1,6 +1,6 @@
 import { Button, Stack, Typography } from '@mui/material'
 import { compile, range } from 'mathjs'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Axis, LineSeries, Plot } from 'react-plot'
 import html2canvas from 'html2canvas';
 

@@ -15,10 +15,10 @@ export default function FeatureHero({feature}) {
             height: "100%"
         }}>
             <Typography color="white" fontSize="40px" fontWeight="bold" textTransform="uppercase">
-                {feature === "feature-a" ? "Graphify" : "ProbaVis"}
+                {feature === "graphify" ? "Graphify" : "ProbaVis"}
             </Typography>
             <Typography color="white" fontSize="20px">
-                {feature === "feature-a" ? "Downloadble graphing calculator" : "Visual illustration of Probabilities"}
+                {feature === "graphify" ? "Downloadable graphing calculator" : "Visual illustration of Probabilities"}
             </Typography>
         </Stack>
     </Container>
